@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Website_design">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Shrinjit</title>
+        <link rel="shortcut icon" href="images/Shrinjit%20Sharma%20(4).png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css" media="screen">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Lora&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header>
+          <!--  <nav id="header-nav" class="navbar navbar-light bg-light fixed-top"> -->
+            <nav id="header-nav" class="navbar navbar-default">
+                
+                <div class="container">
+                    <div class="navbar-header">
+                        <a  href="index.html" class="pull-left visible-sm visible-xs visible-md visible-lg"> 
+                            <!--float: left in bootstrap 5 is float-start or float-md-start or float-lg-start and float: right in bootstrap 5 is float-end -->
+                        <!--
+                        Hidden on all = .d-none
+                        Hidden only on xs = .d-none .d-sm-block
+                        Hidden only on sm = .d-sm-none .d-md-block
+                        Hidden only on md = .d-md-none .d-lg-block
+                        Hidden only on lg = .d-lg-none .d-xl-block
+                        Hidden only on xl = .d-xl-none
+                        Visible on all = .d-block
+                        Visible only on xs = .d-block .d-sm-none
+                        Visible only on sm = .d-none .d-sm-block .d-md-none
+                        Visible only on md = .d-none .d-md-block .d-lg-none
+                        Visible only on lg = .d-none .d-lg-block .d-xl-none
+                        Visible only on xl = .d-none .d-xl-block
+                        -->
+                            <div id="logo-img" alt="Logo image"></div> 
+                        </a>
+                        
+                        <div class="navbar-brand">
+                            <a href="index.html"><h1>SHRINJIT KUMAR SHARMA</h1></a>
+                            <p><span>Software Engineer</span></p>
+                        </div>
+                          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">  <!-- data-target will have the ID of div with class .collapse .navbar-collapse --> 
+                            <!-- Collapsed is a plug-in-->
+                            <span class="sr-only">Toggle navigation</span> <!-- sr-only Screen Reader Only and not appear on the screen --> 
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                    </div>
+                     <div id="collapsable-nav" class="collapse navbar-collapse" >
+                        <ul id="nav-list" class="nav navbar-nav navbar-right"> 
+                            <!--class nav navbar-navare components of the navigation bar and turn into nicely order menu in the navigation bar-->
+                            <!-- class navbar-right pulls the navigation bar to the right-->
+                            
+                            <li class="visible-xs active">
+                                <a id="home" href="index.html">
+                                    <span class="glyphicon glyphicon-home"></span>
+                                    Home
+                                </a>
+                            </li><!--For returning to home page-->
+                            
+                            <li>
+                                <a href="#main-content">
+                                    <span class="glyphicon glyphicon-info-sign"></span>
+                                    <br class="hidden-xs">About Me</a>
+                            </li>
+                            <li class="hidden-xs">
+                                <a href="#skills">
+                                    <span class="glyphicon glyphicon-wrench"></span>
+                                    <br class="hidden-xs">
+                                    Technical Skills
+                                </a>
+                            </li>
+                            <li class="visible-xs">
+                                <a href="#XSskills">
+                                    <span class="glyphicon glyphicon-wrench"></span>
+                                    <br class="hidden-xs">
+                                    Technical Skills
+                                </a>
+                            </li>
+                            <li class="hidden-xs">
+                                <a href="#hobbies">
+                                    <span class="glyphicon glyphicon-headphones"></span>
+                                    <br class="hidden-xs">
+                                    Hobbies
+                                </a>
+                            </li>
+                            <li class="visible-xs">
+                                <a href="#XShobbies">
+                                    <span class="glyphicon glyphicon-headphones"></span>
+                                    <br class="hidden-xs">
+                                    Hobbies
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#contactDetails">
+                                    <span class="glyphicon glyphicon-phone-alt"></span><br class="hidden-xs">
+                                    Contact Me
+                                </a>
+                            </li>
+                           
+                        </ul><!-- #nav-list -->
+                    </div><!-- .collapse .navbar-collapse -->
+                </div><!-- .container -->
+            </nav><!-- #header-nav -->
+        </header>
+        
+        
+        
+        
+        <div id="main-content" class="container">
+            <div class="jumbotron">
+               <!-- <img src="images/1014.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">--><!--Class="img-responsive" comes from bootstar which says the width and sizing of the image is gonna change proportionally while changing the size of the browser-->
+                <!--class="visible-xs" means image will only be visible when the width of the browser be Extra Small-->
+                
+                <section id="extraSmallAboutMe" class="visible-xs"><!--For extra small--> 
+                    <table>
+                        <tr>
+                            <div id="XsaboutMeImage"></div>
+                        <tr/>
+                        <tr><article id="XsaboutMeArticle">
+                                    <header>
+                                        <h2>About Me</h2><br/>
+                                        <p id="Xsintro">Hi, I'm Shrinjit Kr. Sharma</p>
+                                    </header>
+                                    <body id="Xsabout">
+                                        I'm an engineer, passionate about learning the latest software technologies and developing applications.
+                                    </body>
+                                </article>
+                        </tr>
+                    </table>
+                </section>
+                
+                <section id="aboutMe" class="hidden-xs"> <!--For sizes other than extra small--> 
+                    <table>
+                        <tr>
+                            <td><!--<img src="images/motivation3%20(1).jpg" width="470px" height="330px">-->
+                            <div id="aboutMeImage"></div>
+                            </td>
+                            <td><article id="aboutMeArticle">
+                                    <header>
+                                        <h2>About Me</h2><br/>
+                                        <p id="intro">Hi, I'm Shrinjit Kr. Sharma</p>
+                                    </header>
+                                    <body id="about">
+                                        I'm an engineer, passionate about learning the latest software technologies and developing applications.
+                                    </body>
+                                </article></td>
+                        </tr>
+                    </table>
+                    
+                </section>
+            </div>
+            
+            <div id="XSskills" class="visible-xs"> <!--For extra small--> 
+                <table>
+                        <tr>
+                            <div id="XSimageSkills"></div>
+                        </tr>
+                        <tr><article id="XSskillsArticle">
+                                <header>
+                                    <h2 id="XSskillsHeader">Technical Skills</h2><br/>
+                                    <p id="XSskillsParagraph">These are the technical skills that I possess:</p>
+                                </header>
+                                <span>
+                                    <ul>
+                                        <li>SQL</li>
+                                        <li>HTML, CSS and JavaScript</li>
+                                        <li>Java EE and Java SE</li>
+                                        <li>Python</li>
+                                        <li>C Programming</li>
+                                    </ul>
+                                </span>
+                            </article>
+                        </tr>
+                </table>
+            </div>
+            
+            <div id="skills" class="hidden-xs"> <!--For sizes other than extra small--> 
+                <table>
+                    <tr>
+                        <td><article id="skillsArticle">
+                                <header>
+                                    <h2 id="skillsHeader">Technical Skills</h2><br/>
+                                    <!--<p id="skillsParagraph">These are the technical skills that I possess:</p>-->
+                                </header>
+                                <span>
+                                    <ul>
+                                        <li>SQL</li>
+                                        <li>HTML, CSS and JavaScript</li>
+                                        <li>Java EE and Java SE</li>
+                                        <li>Python</li>
+                                        <li>C Programming</li>
+                                    </ul>
+                                </span>
+                            </article>
+                        </td>
+                        <td>
+                            <div id="imageSkills"></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div id="XShobbies" class="visible-xs">
+                <table>
+                    
+                    <tr>
+                        <div id="XSimageHobbies"></div>
+                    </tr>
+                    <tr>
+                            <article id="XShobbiesArticle">
+                                <header>
+                                    <h2 id="XShobbiesHeader">My Hobbies</h2>
+                                </header>
+                                <span>
+                                    <ul>
+                                        <li>Playing soccer</li>
+                                        <li>Collecting soccer clubs' jerseys</li>
+                                        <li>Listening to music</li>
+                                        <li>Playing video games</li>
+                                    </ul>
+                                </span>
+                            </article>
+                    </tr>
+                </table>
+            </div>
+            
+            <div id="hobbies" class="hidden-xs">
+                <table>
+                    <tr>
+                        <td>
+                            <div id="imageHobbies"></div>  
+                        </td>
+                        <td>
+                            <article id="hobbiesArticle">
+                                <header>
+                                    <h2 id="hobbiesHeader">My Hobbies</h2>
+                                </header>
+                                <span>
+                                    <ul>
+                                        <li>Playing soccer</li>
+                                        <li>Collecting soccer clubs' jerseys</li>
+                                        <li>Listening to music</li>
+                                        <li>Playing video games</li>
+                                    </ul>
+                                </span>
+                            </article>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div id="home-tiles" class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <a href="education.html">
+                        <div id="education-tile">
+                            <span>my journey</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <a href="https://github.com/ScarletCoder7?tab=repositories" target="_blank">
+                        <div id="projects-tile">
+                            <span>Github</span>
+                        </div>
+                    </a>
+                </div>
+              <!--  <div class="col-md-4 col-sm-4 col-xs-12">
+                    <a href="#">
+                        <div id="favorites-tile">
+                        <span>my favorites</span>
+                        </div>
+                    </a>
+                </div> -->
+            </div>  <!--End of id="home-tiles" class="row"-->
+        </div>  <!--End of id="main-content" class="container"-->
+        
+        <footer id="contactDetails" class="panel-footer">
+            <div class="container">
+                <div class="row"> <!-- as we gonna have span elements in a row-->
+                    <section id="contact" class="col-sm-4">
+                        <span class="glyphicon glyphicon-phone-alt"> Contact:</span><br/><a href="tel:+91-7431054373">
+                                    <span id="phoneNo">(+91)-9641690715</span></a>
+                        <br/>
+                        <a href="mailto:shrinjitsharma008@gmail.com"><span id="mailId">shrinjitsharma008@gmail.com</span></a> <br/>
+                        <hr class="visible-xs">
+                    </section>
+                    <section id="address" class="col-sm-4">
+                        <span class="glyphicon glyphicon-home"> Address:</span><br/>
+                        Police Station Road<br/>
+                        North 24-Parganas<br/>
+                        West Bengal, India<br/>
+                        <hr class="visible-xs">
+                    </section>
+                    <section  id="testimonials" class="visible-sm-4">
+                        <span class="glyphicon glyphicon-thumbs-up"> Gracias</span>
+                    </section>
+                </div>  <!-- End of div class="row"-->
+                <div class="text-center"> Made with &hearts; by Shrinjit Kr. Sharma </div>
+            </div>
+        </footer>
+        
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Website_design">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Shrinjit's Website</title>
+        <link rel="shortcut icon" href="images/Shrinjit%20Sharma%20(4).png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css" media="screen">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Lora&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header>
+          <!--  <nav id="header-nav" class="navbar navbar-light bg-light fixed-top"> -->
+            <nav id="header-nav" class="navbar navbar-default">
+                
+                <div class="container">
+                    <div class="navbar-header">
+                        <a  href="index.html" class="pull-left visible-sm visible-xs visible-md visible-lg"> 
+                            <!--float: left in bootstrap 5 is float-start or float-md-start or float-lg-start and float: right in bootstrap 5 is float-end -->
+                        <!--
+                        Hidden on all = .d-none
+                        Hidden only on xs = .d-none .d-sm-block
+                        Hidden only on sm = .d-sm-none .d-md-block
+                        Hidden only on md = .d-md-none .d-lg-block
+                        Hidden only on lg = .d-lg-none .d-xl-block
+                        Hidden only on xl = .d-xl-none
+                        Visible on all = .d-block
+                        Visible only on xs = .d-block .d-sm-none
+                        Visible only on sm = .d-none .d-sm-block .d-md-none
+                        Visible only on md = .d-none .d-md-block .d-lg-none
+                        Visible only on lg = .d-none .d-lg-block .d-xl-none
+                        Visible only on xl = .d-none .d-xl-block
+                        -->
+                            <div id="logo-img" alt="Logo image"></div> 
+                        </a>
+                        
+                        <div class="navbar-brand">
+                            <a href="index.html"><h1>SHRINJIT SHARMA</h1></a>
+                            <p><span>Software Engineer</span></p>
+                        </div>
+                          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">  <!-- data-target will have the ID of div with class .collapse .navbar-collapse --> 
+                            <!-- Collapsed is a plug-in-->
+                            <span class="sr-only">Toggle navigation</span> <!-- sr-only Screen Reader Only and not appear on the screen --> 
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                    </div>
+                     <div id="collapsable-nav" class="collapse navbar-collapse" >
+                        <ul id="nav-list" class="nav navbar-nav navbar-right"> 
+                            <!--class nav navbar-navare components of the navigation bar and turn into nicely order menu in the navigation bar-->
+                            <!-- class navbar-right pulls the navigation bar to the right-->
+                            
+                            <li class="active">
+                                <a href="projects.html"  id="journey">
+                                    <span class="glyphicon glyphicon-wrench"></span>
+                                    <br class="hidden-xs">Projects
+                                </a>
+                            </li>
+                            
+                            <!--For returning to home page-->
+                            <li>
+                                <a href="index.html">
+                                    <span class="glyphicon glyphicon-home"></span>
+                                    <br class="hidden-xs">Home Page</a>
+                            </li>
+                            <li>
+                                <a href="education.html">
+                                    <span class="glyphicon glyphicon-education"></span>
+                                    <br class="hidden-xs">
+                                    My Journey
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#hobbies">
+                                    <span class="glyphicon glyphicon-music"></span>
+                                    <br class="hidden-xs">
+                                    My Favorites
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#contactDetails">
+                                    <span class="glyphicon glyphicon-phone-alt"></span><br class="hidden-xs">
+                                    Contact Me
+                                </a>
+                            </li>
+                           
+                        </ul><!-- #nav-list -->
+                    </div><!-- .collapse .navbar-collapse -->
+                </div><!-- .container -->
+            </nav><!-- #header-nav -->
+        </header>
+        
+        <!-- Content-->
+        <div id="main-content" class="container visible-lg visible-md">
+            <h1 id="timeline" class="text-center">My Projects</h1>
+            <!--<h3 id="journeySoFar" class="text-center">Some of the projects in my portfolio that I worked on</h3><br/>-->
+            <!--name of the page-->
+            <center><div id="myProjects">
+                <div id="stick1"></div>
+                <a href="#">
+                    <div id="project1">
+                        <figure>
+                            
+                            <div id="imgProject1"></div>
+                            <figcaption id="project1Cap" style="font-weight: bold;">Project 1: Project on HTML CSS & JavaScript</figcaption>
+                            
+                        </figure>
+                    </div>
+                </a>              
+                <div id="stick2"></div>
+                <a href="#">
+                    <div id="project2">
+                        <figure>
+                            
+                            <div id="imgProject2"></div>
+                            <figcaption id="project2Cap" style="font-weight: bold;">Project 2: Project on HTML CSS & JavaScript</figcaption>
+                            
+                        </figure>
+                    </div>
+                </a> 
+                <div id="stick3"></div>
+                <a href="#">
+                    <div id="project3">
+                        <figure>
+                            
+                            <div id="imgProject3"></div>
+                            <figcaption id="project3Cap" style="font-weight: bold;">Project 3: Mini project on HTML & CSS</figcaption>    
+                        </figure>
+                    </div>
+                </a> 
+                <div id="stick4"></div>
+                <a href="#">
+                    <div id="project4">
+                        <figure>
+                            
+                            <div id="imgProject4"></div>
+                            <figcaption id="project4Cap" style="font-weight: bold;">Project 4: Project on HTML & CSS</figcaption>    
+                        </figure>
+                    </div>
+                </a> 
+                <div id="stick5"></div>
+                <a href="#">
+                    <div id="project5">
+                        <figure>
+                            
+                            <div id="imgProject5"></div>
+                            <figcaption id="project5Cap" style="font-weight: bold;">Project 5: Mini project on HTML</figcaption>    
+                        </figure>
+                    </div>
+                </a>
+                <div id="stick6"></div>
+                 <a href="#">
+                    <div id="project6">
+                        <figure>
+                            
+                            <div id="imgProject6"></div>
+                            <figcaption id="project6Cap" style="font-weight: bold;">Project 6: Mini project on HTML</figcaption>    
+                        </figure>
+                    </div>
+                </a>
+                <div id="stick7"></div>
+                <a href="#">
+                    <div id="project7">
+                        <figure>
+                            
+                            <div id="imgProject7"></div>
+                            <figcaption id="project6Cap" style="font-weight: bold;">Project 7: Mini project on JavaScript</figcaption>   </figure>
+                    </div>
+                </a>
+                <div id="stick8"></div>
+                <div id="Btech">
+                    <table >
+                        <tr>
+                            <td id="btechCourse" >
+                                <p style="font-weight: bold;">Bachelor of Technology in Electronics & Communication Engineering (Lateral Entry in B.Tech.)</p>
+                                <p><strong>Electronics and Communication Engineering (ECE)</strong> deals with <strong>electronic devices and software applications</strong>. It is an evergreen interface of<strong> information technology and chip-level hardware</strong>.</p>
+                                <p><strong>Lateral Entry (LE)</strong> in Bachelor of Technology (B.Tech.) is the direct entry of an applicant into the <strong>second year of B.Tech. (third semester)</strong> after completing a <strong>diploma course in engineering (Polytechnic).</strong></p>
+                                <p style="font-weight: bold;">University: Maulana Abul Kalam Azad University of Technology</p>
+                                <p><strong>DGPA: 7.16</strong></p>
+                                <a id="button7" href="#" target="_blank">See Certificate</a>
+                            </td>
+                            <td><div id="imgBtech"></div></td>
+                            <td id="BTechDate"><p>2016 - 2019</p></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="stick9"></div>
+                <div id="summerTraining">
+                    <table >
+                        <tr>
+                            <td id="trainingCourse1" >
+                                <p style="font-weight: bold;">Industrial Training on PHP & MySQL (Summer Training)</p>
+                                <p>The summer training program was associated with the <strong>Bachelor of Technology program (4th Year, 7th Semester)</strong></p>
+                                <p style="font-weight: bold;">Subject Code: EC781</p>
+                                <p style="font-weight: bold;">Grade: O (Outstanding) | Points: 10</p>
+                                <a id="button8" href="#" target="_blank">See Certificate</a>
+                            </td>
+                            <td><div id="imgtraining1"></div></td>
+                            <td id="trainingCourse1Date"><p>June 2018 - <br/>July 2018</p></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="stick10"></div>
+                <div id="tcsIon">
+                    <table >
+                        <tr>
+                            <td id="tcsIonCourse1" >
+                                <p style="font-weight: bold;">Certificate Program in C and Data Structure</p>
+                                <p><strong>Name of the Institute: TATA CONSULTANCY SERVICES ION (TCS ION)</strong></p>
+                                <a id="buttonIon" href="#" target="_blank">See Certificate</a>
+                            </td>
+                            <td><div id="imgtcsIon"></div></td>
+                            <td id="tcsIonDate"><p>April 2016 - <br/>July 2016</p></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="stick11"></div>
+                <div id="polytechnic">
+                    <table >
+                        <tr>
+                            <td id="diplomaCourse" >
+                                <p style="font-weight: bold;">Diploma Course in Electronics & Telecommunication Engineering (Polytechnic)</p>
+                                <p><strong>A diploma course in engineering (Polytechnic) is a 3-year course </strong>awarded in a specific branch of engineering.</p>
+                                <p style="font-weight: bold;">Council: West Bengal State Council of Technical and Vocational Education and Skill Development</p>
+                                <p><strong>GPA: 7.5</strong> |&nbsp;<strong>CLASS: I [DISTINCTION]</strong></p>
+                                <a id="button9" href="#" target="_blank">See Certificate</a>
+                            </td>
+                            <td><div id="imgDiploma"></div></td>
+                            <td id="DiplomaDate"><p>2013 - 2016</p></td>
+                        </tr>
+                    </table>
+                </div>
+            </div></center>
+            
+        </div>  <!--End of id="main-content" class="container"-->
+        
+        <!-- Content-->
+        <div id="main-content" class="container visible-sm visible-xs visible-xxs">
+            <h3 id="timeline" class="text-center">Timeline</h3>
+            <h1 id="journeySoFar" class="text-center">My journey so far</h1><br/>
+            <!--name of the page-->
+            <center><div id="myEducation">
+                <div id="stick1"></div>
+                <div id="coursera1">
+                    <table >
+                        <tr>
+                            <td id="onlineCourse1" >
+                                <p style="font-weight: bold;">HTML, CSS, and JavaScript for Web Developers (Online Course)</p>
+                                <p>HTML, CSS, and JavaScript for Web Developers is an online course authorized by <strong>Johns Hopkins University</strong> and offered through <strong>Coursera</strong></p>
+                                <center><a id="button1" href="https://www.coursera.org/account/accomplishments/certificate/BMXRBDGWCSG2" target="_blank">See Certificate</a></center>
+                            </td>
+                        </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr>
+                            <td><center><div id="imgCoursera1"></div></center></td>
+                        </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr>
+                            <td id="onlineCourse1Date"><center><p>January 2022</p></center></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="stick2"></div>
+                <div id="udemy">
+                    <table >
+                        <tr>
+                            <td id="onlineCourse2" >
+                                <p><strong>JSP, Servlets and JDBC </strong>for Beginners: Build a Database App <strong>(Udemy Online Course)</strong></p>
+                                <center><a id="button2" href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-d825e5d2-edcd-4e78-b5bd-907e165aaaf7.pdf" target="_blank">See Certificate</a></center>
+                            </td>
+                        </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr>
+                            <td><center><div id="imgUdemy1"></div></center></td>
+                        </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr>
+                            <td id="onlineCourse2Date"><center><p>September 2021</p></center></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="stick3"></div>
+                <div id="Dma1">
+                    <table >
+                        <tr>
+                            <td id="dmaCourse1" >
+                                <p style="font-weight: bold;">Certificate Program in Java</p>
+                                <p><strong>Name of the Institute: DEEP MERIT ACADEMY (DMA)</strong></p>
+                                <p><strong>Grade Obtained: A (Excellent)</strong></p>
+                                <center><a id="button3" href="#" target="_blank">See Certificate</a></center>
+                            </td>
+                        </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr>
+                            <td><center><div id="imgDma1" class="small-imgDma1"></div></center></td>
+                        </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr>
+                            <td id="dmaCourse1Date"><center><p>March 2021 - September 2021</p></center></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="stick4"></div>
+                <div id="Dma2">
+                    <table >
+                        <tr>
+                            <td id="dmaCourse2" >
+                                <p style="font-weight: bold;">Certificate Program in PHP & MYSQL</p>
+                                <p><strong>Name of the Institute: DEEP MERIT ACADEMY (DMA)</strong></p>
+                                <p><strong>Grade Obtained: A (Excellent)</strong></p>
+                                <center><a id="button3_dma" href="#" target="_blank">See Certificate</a></center>
+                            </td>
+                        </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr>
+                            <td><center><div id="imgDma2"></div></center></td>
+                        </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr>
+                            <td id="dmaCourse2Date"><center><p>August 2020 - November 2020</p></center></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="stick5"></div>
+                <div id="coursera2">
+                    <table >
+                        <tr>
+                            <td id="onlineCourse3" >
+                                <p style="font-weight: bold;">Crash Course on Python (Online Course)</p>
+                                <p>Crash Course on Python is an online course authorized by <strong>Google</strong> and offered through <strong>Coursera</strong></p>
+                                <center><a id="button4" href="https://www.coursera.org/account/accomplishments/certificate/MP26YFA2QBE3" target="_blank">See Certificate</a></center>
+                            </td>
+                        </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr>
+                            <td><center><div id="imgCoursera2"></div></center></td>
+                        </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr>
+                            <td id="onlineCourse3Date"><center><p>September 2020</p></center></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="stick6"></div>
+                 <div id="coursera3">
+                    <table >
+                        <tr>
+                            <td id="onlineCourse4" >
+                                <p style="font-weight: bold;">Object Oriented Programming in Java (Online Course)</p>
+                                <p>Object Oriented Programming in Java is an online course authorized by <strong>University of California San Diego</strong> and offered through <strong>Coursera</strong></p>
+                                <center><a id="button5" href="https://www.coursera.org/account/accomplishments/certificate/6XC34L434QB4" target="_blank">See Certificate</a></center>
+                            </td>
+                        </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr>
+                            <td><center><div id="imgCoursera3"></div></center></td>
+                        </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr>
+                            <td id="onlineCourse4Date"><center><p>July 2020</p></center></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="stick7"></div>
+                <div id="cmc">
+                    <table >
+                        <tr>
+                            <td id="cmcCourse1" >
+                                <p style="font-weight: bold;">Certificate Program in C# .NET</p>
+                                <p><strong>Name of the Institute: COMPUTER MANAGEMENT CONCERN (CMC)</strong></p>
+                                <p><strong>Grade Obtained: A (Excellent)</strong></p>
+                                <center><a id="button6" href="#" target="_blank">See Certificate</a></center>
+                            </td>
+                        </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr>
+                            <td><center><div id="imgCmc1"></div></center></td>
+                        </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr>
+                            <td id="cmcCourse1Date"><center><p>January 2019 - September 2019</p></center></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="stick8"></div>
+                <div id="Btech">
+                    <table >
+                        <tr>
+                            <td id="btechCourse" >
+                                <p style="font-weight: bold;">Bachelor of Technology in Electronics & Communication Engineering (Lateral Entry in B.Tech.)</p>
+                                <p><strong>Electronics and Communication Engineering (ECE)</strong> deals with <strong>electronic devices and software applications</strong>. It is an evergreen interface of<strong> information technology and chip-level hardware</strong>.</p>
+                                <p><strong>Lateral Entry (LE)</strong> in Bachelor of Technology (B.Tech.) is the direct entry of an applicant into the <strong>second year of B.Tech. (third semester)</strong> after completing a <strong>diploma course in engineering (Polytechnic).</strong></p>
+                                <p style="font-weight: bold;">University: Maulana Abul Kalam Azad University of Technology</p>
+                                <p><strong>DGPA: 7.16</strong></p>
+                                <center><a id="button7" href="#" target="_blank">See Certificate</a></center>
+                            </td>
+                        </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr>
+                            <td><center><div id="imgBtech"></div></center></td>
+                        </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr>
+                            <td id="BTechDate"><center><p>2016 - 2019</p></center></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="stick9"></div>
+                <div id="summerTraining">
+                    <table >
+                        <tr>
+                            <td id="trainingCourse1" >
+                                <p style="font-weight: bold;">Industrial Training on PHP & MySQL (Summer Training)</p>
+                                <p>The summer training program was associated with the <strong>Bachelor of Technology program (4th Year, 7th Semester)</strong></p>
+                                <p style="font-weight: bold;">Subject Code: EC781</p>
+                                <p style="font-weight: bold;">Grade: O (Outstanding) | Points: 10</p>
+                                <center><a id="button8" href="#" target="_blank">See Certificate</a></center>
+                            </td>
+                        </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr>
+                            <td><center><div id="imgtraining1"></div></center></td>
+                        </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr>
+                            <td id="trainingCourse1Date"><center><p>June 2018 - July 2018</p></center></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="stick10"></div>
+                <div id="tcsIon">
+                    <table >
+                        <tr>
+                            <td id="tcsIonCourse1" >
+                                <p style="font-weight: bold;">Certificate Program in C and Data Structure</p>
+                                <p><strong>Name of the Institute: TATA CONSULTANCY SERVICES ION (TCS ION)</strong></p>
+                                <center><a id="buttonIon" href="#" target="_blank">See Certificate</a></center>
+                            </td>
+                        </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr>
+                            <td><center><div id="imgtcsIon"></div></center></td>
+                        </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr>
+                            <td id="tcsIonDate"><center><p>April 2016 - July 2016</p></center></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="stick11"></div>
+                <div id="polytechnic">
+                    <table >
+                        <tr>
+                            <td id="diplomaCourse" >
+                                <p style="font-weight: bold;">Diploma Course in Electronics & Telecommunication Engineering (Polytechnic)</p>
+                                <p><strong>A diploma course in engineering (Polytechnic) is a 3-year course </strong>awarded in a specific branch of engineering.</p>
+                                <p style="font-weight: bold;">Council: West Bengal State Council of Technical and Vocational Education and Skill Development</p>
+                                <p><strong>GPA: 7.5</strong> |&nbsp;<strong>CLASS: I [DISTINCTION]</strong></p>
+                                <center><a id="button9" href="#" target="_blank">See Certificate</a></center>
+                            </td>
+                        </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr>
+                            <td><center><div id="imgDiploma"></div></center></td>
+                        </tr>
+                        <tr><td>&nbsp;</td></tr>
+                        <tr>
+                            <td id="DiplomaDate"><center><p>2013 - 2016</p></center></td>
+                        </tr>
+                    </table>
+                </div>
+            </div></center>
+            
+        </div>  <!--End of id="main-content" class="container"-->
+        
+        <!--Footer-->
+        <footer id="contactDetails" class="panel-footer">
+            <div class="container">
+                <div class="row"> <!-- as we gonna have span elements in row-->
+                    <section id="contact" class="col-sm-4">
+                        <span class="glyphicon glyphicon-phone-alt"> Contact:</span><br/><a href="tel:+91-7431054373">
+                                    <span id="phoneNo">(+91)-7431054373</span></a>
+                        <br/>
+                        <a href="mailto:shrinjitsharma008@gmail.com"><span id="mailId">shrinjitsharma008@gmail.com</span></a> <br/>
+                        <hr class="visible-xs">
+                    </section>
+                    <section id="address" class="col-sm-4">
+                        <span class="glyphicon glyphicon-home"> Address:</span><br/>
+                        Police Station Road<br/>
+                        North 24-Parganas<br/>
+                        West Bengal, India<br/>
+                        <hr class="visible-xs">
+                    </section>
+                    <section  id="testimonials" class="visible-sm-4">
+                        <span class="glyphicon glyphicon-thumbs-up"> Gracias</span>
+                    </section>
+                </div>  <!-- End of div class="row"-->
+                <div class="text-center"> Made with &hearts; by Shrinjit Kr. Sharma </div>
+            </div>
+        </footer>
+        
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
