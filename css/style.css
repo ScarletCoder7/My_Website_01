@@ -175,6 +175,46 @@ a#journey{
     height:40px;
     background-color: #AEB6BF ;
 }
+#imgMeta3{
+    background: url("../images/meta_01.jpg") no-repeat;
+    width: 230px;
+    height: 150px;
+    margin: 0 30px 0 30px; 
+}
+#metaCourse3{
+    width: 520px;
+    color: darkslategray;
+    background-color: #D5D8DC;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+#button3_meta3{
+    width:105px;
+    height: 3px;
+    background-color:#9F2B68;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 4px 3px 4px;
+    text-decoration: none;
+}
+#button3_meta3:hover, #button3_meta3:focus{
+    background-color:#FFFF00;
+    color: black;
+    text-decoration: none;
+}
+#meta3Date{
+    color: darkslategray;
+    background-color: #D5D8DC;
+    padding: 10px 20px 10px 20px;
+    width: 170px;
+    border-radius: 10px;
+}
+
+#stick20{
+    width: 3px;
+    height:100px;
+    background-color: #AEB6BF ;
+}
 #imgMeta1{
     background: url("../images/meta_01.jpg") no-repeat;
     width: 230px;
